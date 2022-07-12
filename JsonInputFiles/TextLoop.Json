@@ -1,0 +1,9 @@
+{
+	"legal_heading":"End-User Agreement",
+	"legal_clauses": [
+		{"legal_clause":"Legal Clause 1..Please read it.."},
+		{"legal_clause":"Legal Clause 2..Please read it.."},
+		{"legal_clause":"Legal Clause 3..Please read it.."},
+		{"legal_clause":"Legal Clause 4..Please read it.."}
+	]
+}

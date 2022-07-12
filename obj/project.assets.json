@@ -1,0 +1,119 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {
+      "PDFTron.NET.x64/9.3.0": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/PDFTronDotNet.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/PDFTronDotNet.dll": {}
+        },
+        "build": {
+          "build/PDFTron.NET.x64.targets": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "PDFTron.NET.x64/9.3.0": {
+      "sha512": "+WEM/0nr5jxsZSzmBHHERgK0t1V638dTZLH7sfqNmti3taF0LZGOG5VejfplCVjisG/5T8HfUqeHBZTphtHC+Q==",
+      "type": "package",
+      "path": "pdftron.net.x64/9.3.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "PDFNet_License.pdf",
+        "build/PDFTron.NET.x64.targets",
+        "build/x64/PDFNetC.dll",
+        "build/x64/libPDFNetC.dylib",
+        "build/x64/libPDFNetC.so",
+        "images/pdftron.png",
+        "legal.txt",
+        "lib/net5.0/PDFTronDotNet.dll",
+        "lib/net6.0/PDFTronDotNet.dll",
+        "lib/netcoreapp2.1/PDFTronDotNet.dll",
+        "lib/netstandard2.0/PDFTronDotNet.dll",
+        "lib/netstandard2.1/PDFTronDotNet.dll",
+        "pdftron.net.x64.9.3.0.nupkg.sha512",
+        "pdftron.net.x64.nuspec",
+        "whatsnew.html"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0": [
+      "PDFTron.NET.x64 >= 9.3.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\sunil\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\sunil\\dotnetsampleapplication\\PDFConsoleApplicationDemo\\PDFConsoleApplicationDemo.csproj",
+      "projectName": "PDFConsoleApplicationDemo",
+      "projectPath": "C:\\Users\\sunil\\dotnetsampleapplication\\PDFConsoleApplicationDemo\\PDFConsoleApplicationDemo.csproj",
+      "packagesPath": "C:\\Users\\sunil\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\sunil\\dotnetsampleapplication\\PDFConsoleApplicationDemo\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\sunil\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "dependencies": {
+          "PDFTron.NET.x64": {
+            "target": "Package",
+            "version": "[9.3.0, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

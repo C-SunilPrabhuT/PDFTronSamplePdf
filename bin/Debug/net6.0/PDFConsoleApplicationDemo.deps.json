@@ -1,0 +1,41 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "PDFConsoleApplicationDemo/1.0.0": {
+        "dependencies": {
+          "PDFTron.NET.x64": "9.3.0"
+        },
+        "runtime": {
+          "PDFConsoleApplicationDemo.dll": {}
+        }
+      },
+      "PDFTron.NET.x64/9.3.0": {
+        "runtime": {
+          "lib/net6.0/PDFTronDotNet.dll": {
+            "assemblyVersion": "9.0.0.0",
+            "fileVersion": "9.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "PDFConsoleApplicationDemo/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "PDFTron.NET.x64/9.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-+WEM/0nr5jxsZSzmBHHERgK0t1V638dTZLH7sfqNmti3taF0LZGOG5VejfplCVjisG/5T8HfUqeHBZTphtHC+Q==",
+      "path": "pdftron.net.x64/9.3.0",
+      "hashPath": "pdftron.net.x64.9.3.0.nupkg.sha512"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+	"items": [
+		{"item": "Wireless", "charge": "$42.34"},
+		{"item": "Long Distance", "charge": "$12.55"},
+		{"item": "Data", "charge": "$14.89"}
+	],
+	"balance":"$12.52",
+	"total_due":"$82.30"
+}

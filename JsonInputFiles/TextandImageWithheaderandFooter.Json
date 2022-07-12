@@ -1,0 +1,11 @@
+{
+   "short_text":"Hello Neo Gov",
+   "big_text":"This is PowerAccred Pdf generated from PDfTron",
+   "logo":{
+      "image_url":"./NeoGov.png",
+      "width":30,
+      "height":30
+   },
+   "Header":"Neogov Header",
+   "Footer": "neoGov Footer"
+}
