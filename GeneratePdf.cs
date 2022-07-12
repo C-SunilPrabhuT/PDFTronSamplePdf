@@ -15,11 +15,8 @@ using pdftron.SDF;
         {
             // Initialize PDFNet before using any PDFTron related
             // classes and methods (some exceptions can be found in API)
-            //PDFNet.Initialize("demo:1657206433476:7a454c1c0300000000424146ebed66cec1eda0c9159c7e533be1af98ff");
-            Console.WriteLine("1");
-            //PDFNet.Initialize("PowerDMS, Inc. (www.powerdms.com):OEM:PowerDMS::IA+:AMS(20231226):0FB57B120457580AF3603E3AC992737860613F66F9164A8A9BADB48ABD308B96649A31F5C7");
-             PDFNet.Initialize("PowerDMS, Inc. (www.powerdms.com):OEM:PowerDMS::B+:AMS(20231226):6FB5F6120457580AF360B13AC982547860613F66F9164A8A9BADB48ABD308B96649A31F5C7");
-            string output_path = outputfilepath + outputFile;
+            PDFNet.Initialize("demo:1657206433476:7a454c1c0300000000424146ebed66cec1eda0c9159c7e533be1af98ff");
+            
             string input_path = inputfilepath+inputTemplate;
             var json_data_string = System.IO.File.ReadAllText(jsonFilePath+jsonFile);
 
